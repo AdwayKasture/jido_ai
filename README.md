@@ -21,6 +21,21 @@ end
 
 ## Installation
 
+
+### Igniter Installation
+If your project has [Igniter](https://hexdocs.pm/igniter/readme.html) available, 
+you can install Jido.AI using the command 
+
+```bash
+mix igniter.install jido_ai
+```
+
+This will add related dependencies and trigger the igniter installation for `:jido`
+
+After the installation is done, configure your LLM provider (see [Configuration Guide](guides/developer/08_configuration.md)) 
+
+
+### Manual Installation
 ```elixir
 def deps do
   [
